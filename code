@@ -1,0 +1,18 @@
+using System;
+
+namespace Schroedingertutorial1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int h = 290;
+            bool istGerade = (h % 2==0);
+
+
+
+           Console.WriteLine("Its " + istGerade +" if you think " + h + " is an even number");
+            
+        }
+    }
+}
