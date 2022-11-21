@@ -1,0 +1,17 @@
+using System;
+
+namespace SchroedingerTipp1
+{
+    internal class InderKürzeliegtdieWürze
+    {
+        public static void Main(string[] args)
+        {
+            int actionfilm = 1;
+            int lovestory = 2;
+            bool GFisHere = false;
+            int tvkanal = GFisHere ? lovestory : actionfilm;
+
+            Console.WriteLine(tvkanal);
+        }
+    }
+}
